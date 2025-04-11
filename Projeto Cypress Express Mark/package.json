@@ -1,0 +1,15 @@
+{
+  "name": "cypress-express-mark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Cristian Jonas Ataliba",
+  "license": "ISC",
+  "description": "Projeto de testes de ponta a ponta com Mark l",
+  "devDependencies": {
+    "cypress": "^12.2.0"
+  }
+}
