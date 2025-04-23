@@ -19,4 +19,9 @@ describe('Gerenciamento de tarefas', () => {
     cy.contains('Task already exists!').should('be.visible')
   })
 
+  it('Validar campo em branco', () => {
+    cy.createTask()
+    cy.isRequired('This is a required field')
+  });
+
 })
