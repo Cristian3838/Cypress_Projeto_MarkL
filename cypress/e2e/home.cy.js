@@ -37,4 +37,16 @@ describe('Gerenciamento de tarefas', () => {
       cy.validaTaskMarcada(task)
     })
   })
+
+  context('Exclusão', ()=>{
+    it('Deve remover uma tarefa', () => {
+      const task = {
+        name: 'Estudar JavaScript',
+        is_done: false
+      }
+      cy.removeTaskByName(task.name)
+      cy.postTask(task)
+      cy.removerTarefa(task)
+    });
+  })
 })
