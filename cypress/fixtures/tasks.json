@@ -1,0 +1,21 @@
+
+{
+    "duplicadaVerifica": {
+        "name": "Estudar typeScript",
+        "is_done": false
+    },
+
+    "cadastrarTarefa": {
+        "name": "Estudar Java"
+    },
+
+    "validaTaskMarcada": {
+        "name": "Pagar conta de consumo",
+        "is_done": false
+    },
+
+    "removerTarefa":{
+        "name": "Estudar JavaScript",
+        "is_done": false
+    }
+}
