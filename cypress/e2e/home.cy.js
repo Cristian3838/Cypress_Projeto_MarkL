@@ -8,6 +8,8 @@ describe('Gerenciamento de tarefas', () => {
     })
   })
 
+  
+
   context('Cadastro', ()=>{
     it('Deve excluir e cadastrar uma tarefa com sucesso', () => {
       const task = testData.cadastrarTarefa
