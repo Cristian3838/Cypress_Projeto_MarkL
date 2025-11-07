@@ -55,7 +55,7 @@ Cypress.Commands.add('removerTarefa', (task)=>{
           .parent() // Navegar para o elemento pai (o <div>)
           .find('button[class*= "_listItemDeleteButton"]') // Encontrar o botão dentro do <div> (se houver)
           .click() // Realizar o clique na imagem (ou outro elemento, caso precise)
-  cy.contains('p', task.name)
+          cy.contains('p', task.name)
           .should('not.exist')
         });
  })
